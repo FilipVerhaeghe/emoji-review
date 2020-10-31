@@ -2,6 +2,12 @@
 	"name": "markdown-emoji-review",
 	"displayName": "Markdown Emoji + Review",
 	"description": "Adds emoji syntax support to VS Code's built-in markdown preview, with Review emoji",
+	"repository": {
+		"url": "https://github.com/FilipVerhaeghe/emoji-review.git"
+	},
+	"bugs": {
+		"url": "https://github.com/FilipVerhaeghe/emoji-review/issues"
+	},
 	"keywords": [
 		"emoji",
 		"markdown",
@@ -9,7 +15,7 @@
 		"review"
 	],
 	"icon": "logo.png",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"publisher": "unmannedaero",
 	"license": "MIT",
 	"engines": {
@@ -21,6 +27,9 @@
 	"activationEvents": [],
 	"contributes": {
 		"markdown.markdownItPlugins": true
+	},
+	"dependencies": {
+		"markdown-it-emoji": "^1.4.0"
 	},
 	"main": "./extension.js"
 }

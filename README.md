@@ -25,6 +25,8 @@ These are used when performing review by checklists, typically as follows:
 | REQ-3          | :V:  |   :V:    |   :V:    |    :~:     |     :V:     |
 | REQ-4          | :.:  |   :.:    |   :.:    |    :.:     |     :.:     |
 
+:-)
+
 which has the benefit of 
 
 - clearly signaling red crosses and bells in the Markdown Preview, to show where work is needed;
